@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # filename: admin.py
-# modified: 2019-10-28
+# modified: 2019-10-30
 
 from ..core.mysql import db
 from ..core.safety.digest import xSHA1
@@ -51,8 +51,8 @@ class Admin(db.Model):
         return xSHA1(raw + _ADMIN_PASSWORD_SALT)
 
     @classmethod
-    def get_admin_by_username_password(cls, username, password):
-        return cls.query.filter_by(username=username, password=cls.hash_password(password)).scalar()
+    def get_admin_by_username_password(cls, username, password, type):
+        return cls.query.filter_by(username=username, password=cls.hash_password(password), type=type).scalar()
 
     @classmethod
     def get_admin_by_token(cls, token, type=None):
