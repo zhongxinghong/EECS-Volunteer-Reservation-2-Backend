@@ -1,0 +1,9 @@
+{
+    "appID": "xxxxxxxxxxxxxx",
+    "appSecret": "xxxxxxxxxxxxxxxx",
+
+    "client": {
+        "default_timeout": 30,
+        "user_agent": "eecs backend"
+    }
+}

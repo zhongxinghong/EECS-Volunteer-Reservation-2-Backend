@@ -1,0 +1,75 @@
+{
+    "roots": [
+        {
+            "username": "root",
+            "password": "123456"
+        }
+    ],
+    "workers": [
+        {
+            "username": "admin",
+            "password": "123456"
+        },
+        {
+            "username": "worker",
+            "password": "123456"
+        }
+    ],
+    "users": [
+        {
+            "openid": "RdXiRWZsecKDQxBj4v8js4XHyHFE0zBT"
+        },
+        {
+            "openid": "jjWi0RMJ5hVTI2u8VYP7Ai7mmXauUC94"
+        },
+        {
+            "openid": "hvVbGc7N2ujG1i6ejkVb1vUFD8UrVJcC"
+        },
+        {
+            "openid": "ZdQQeGxSYuirVZBJoodzCObo1K9UodkO"
+        }
+    ],
+    "activities": [
+        {
+            "date": "2019-09-09",
+            "begin": "13:30",
+            "end": "17:00",
+            "site": "理一1127"
+        },
+        {
+            "date": "2019-10-28",
+            "begin": "13:30",
+            "end": "17:00",
+            "site": "二教105"
+        },
+        {
+            "date": "2019-11-15",
+            "begin": "13:30",
+            "end": "17:00",
+            "site": "理教207"
+        }
+    ],
+    "orders": [
+        {
+            "model": "ThinkPad x230",
+            "description": "电脑坏啦哈哈哈 :)",
+            "repairType": "硬件",
+            "period": "13:30-14:00",
+            "email": "1700012345@pku.edu.cn"
+        },
+        {
+            "model": "ThinkPad t450",
+            "description": "好卡呀",
+            "repairType": "软件",
+            "period": "15:30-16:00",
+            "email": "1700012346@pku.edu.cn"
+        },
+        {
+            "model": "ThinkPad x430",
+            "description": "想把机器拆坏 :)",
+            "repairType": "清灰",
+            "period": "16:30-17:00",
+            "email": "1700012347@pku.edu.cn"
+        }
+    ]
+}

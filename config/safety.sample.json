@@ -1,0 +1,5 @@
+{
+    "internal_token": "xxxxxxxxxxxxxx",
+    "user_openid_salt": "xxxxxxxxxxxxxx",
+    "admin_password_salt": "xxxxxxxxxxxxx"
+}
